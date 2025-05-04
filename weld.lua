@@ -20,7 +20,7 @@ button.Name = "WeldButton"
 button.Size = UDim2.new(0, 110, 0, 40)
 button.Position = UDim2.new(1, -15, 0.5, 0)
 button.AnchorPoint = Vector2.new(1, 0.5)
-button.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+button.BackgroundColor3 = Color3.fromRGB(40, 180, 40)
 button.Text = "Weld"
 button.TextColor3 = Color3.new(1, 1, 1)
 button.TextScaled = true
@@ -34,8 +34,8 @@ corner.Parent = button
 
 local gradient = Instance.new("UIGradient")
 gradient.Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0, Color3.fromRGB(40, 40, 40)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(70, 70, 70))
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(40, 180, 40)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(70, 220, 70))
 }
 gradient.Rotation = 90
 gradient.Parent = button
